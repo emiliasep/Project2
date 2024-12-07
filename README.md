@@ -1,6 +1,9 @@
 Emilia Seppanen 
 Project 2 - AJAX
 
+Github: https://github.com/emiliasep/Project2
+Netlify: https://esmusicapp.netlify.app/
+
 This is a Music information APP, which uses Live JSON API from LiveFM.
 
 The web page asks user to type in an Artist in the search and then fetches all Artist Albums with pictures of Album covers along with a list of all the tracks in the album.
