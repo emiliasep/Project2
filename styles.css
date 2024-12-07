@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #121212;
+    color: white;
+  }
+  
+
+  h1 {
+    text-align: center;
+    color: #00bcd4;
+  }
+
+  p {
+    font-size: 1.1em;
+    text-align: center; 
+    margin: 10px 20px;
+    color: #cccccc;
+}
+
+  #searchBar {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00bcd4;
+}
+
+#searchBar input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #00bcd4;
+    border-radius: 4px;
+    background-color: #121212;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+#searchBar button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00bcd4;
+    color: #121212;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+
+  #albumInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+    .album {
+    background-color: #1e1e1e;
+    border: 1px solid #00bcd4;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px #121212;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .album:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px #121212;
+  }
+  
+
+  .album img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+
+  .album h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    color: #00bcd4;
+  }
+  
+
+.track-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+.track-list li {
+    font-size: 0.9em;
+    color: #a6a6a6;
+    margin: 5px 0;
+    margin-left: 10px;
+  }
